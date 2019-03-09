@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="New Photo" />
+        <item
+            android:id="@+id/nav_transfer"
+            android:icon="@drawable/ic_sending_arrows"
+            android:title="Send Pictures" />
+        <item
+            android:id="@+id/nav_add_device"
+            android:icon="@drawable/ic_add_device"
+            android:title="Add Device"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+
+        <item android:title="Community">
+            <menu>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Share Application" />
+                <item
+                    android:id="@+id/nav_rate"
+                    android:icon="@drawable/ic_thumb_up"
+                    android:title="Rate Us" />
+                <item
+                    android:id="@+id/nav_contact"
+                    android:icon="@drawable/ic_contact_us_24dp"
+                    android:title="Contact us" />
+            </menu>
+        </item>
+        <item android:title="About Application">
+            <menu>
+                <item
+                    android:id="@+id/nav_info"
+                    android:icon="@drawable/ic_info_outline"
+                    android:title="Info" />
+            </menu>
+        </item>
+    </group>
+
+
+</menu>

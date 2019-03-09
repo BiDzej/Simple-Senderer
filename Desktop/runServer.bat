@@ -1,0 +1,1 @@
+java -jar out\artifacts\Desktop\Desktop.jar
